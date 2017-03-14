@@ -106,6 +106,10 @@ h1 {
     letter-spacing: 2px;
 }
 
+.minusculas{
+   text-transform: capitalize;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -185,22 +189,6 @@ p.copyright {
 }
 
 .bordefoto{
-  border: black 1px solid;
-  border-color: #6E6E6E;
-}
-#ortodonciafoto{
-  border: black 1px solid;
-  border-color: #6E6E6E;
-}
-
-#laboratoriofoto{
-  border: black 1px solid;
-  border-color: #6E6E6E;
-}
-
-#tablafoto{
-  padding-top: 15px;
-  padding-bottom: 15px;
   border: black 1px solid;
   border-color: #6E6E6E;
 }

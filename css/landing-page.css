@@ -21,6 +21,12 @@ h6 {
     font-weight: 700;
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 120px;
+    color: white;
+}
+
 .topnav {
     font-size: 14px;
 }
@@ -49,7 +55,7 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    /*font-size: 5em;*/
 }
 
 .intro-divider {
@@ -178,6 +184,10 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+.bordefoto{
+  border: black 1px solid;
+  border-color: #6E6E6E;
+}
 #ortodonciafoto{
   border: black 1px solid;
   border-color: #6E6E6E;
@@ -199,6 +209,10 @@ p.copyright {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 1.5em;
 }
+/*img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}*/
 
 /*.img-responsive {
   border: black 1px solid;

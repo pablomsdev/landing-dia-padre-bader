@@ -209,10 +209,36 @@ p.copyright {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 1.5em;
 }
-/*img:hover{
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5)
-}*/
+
+@media handheld, only screen and (min-width: 640px) {
+  img:hover{
+    transform:scale(1.2);
+    -webkit-transition: all 500ms ease-in-out; // IE 9
+    -moz-transition: all 500ms ease-in-out; // Firefox
+    -ms-transition: all 500ms ease-in-out; // Safari and Chrome
+    -o-transition: all 500ms ease-in-out; // Opera
+       -ms-transform:scale(1.4); // IE 9
+       -moz-transform:scale(1.4); // Firefox
+       -webkit-transform:scale(1.4); // Safari and Chrome
+       -o-transform:scale(1.4); // Opera
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  img:hover{
+    -webkit-transition: all 500ms ease-in-out; // IE 9
+    -moz-transition: all 500ms ease-in-out; // Firefox
+    -ms-transition: all 500ms ease-in-out; // Safari and Chrome
+    -o-transition: all 500ms ease-in-out; // Opera
+    transform:scale(1.4);
+       -ms-transform:scale(1.4); // IE 9
+       -moz-transform:scale(1.4); // Firefox
+       -webkit-transform:scale(1.4); // Safari and Chrome
+       -o-transform:scale(1.4); // Opera
+  }
+}
+
+
 
 /*.img-responsive {
   border: black 1px solid;

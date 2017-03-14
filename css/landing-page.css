@@ -209,3 +209,6 @@ p.copyright {
   border: black 1px solid;
   border-color: #6E6E6E;
 }*/
+
+/*Media query para mostrar boton de whatsapp solo en dispositivos moviles*/
+@media handheld, only screen and (min-width: 640px) { .whatsapp{ display:none; }} @media only screen and (min-width: 640px) { .whatsapp{ display:none; }}
